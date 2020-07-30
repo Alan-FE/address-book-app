@@ -1,0 +1,32 @@
+#contacts-list {
+    display: inline-block;
+    width: 220px;
+    background-color: #086972;
+    margin: 9px 3px;
+    text-align: center;
+    border: 2px solid #87dfd6;
+    border-radius: 21px;
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #87dfd6;
+}
+
+.name, .number {
+    padding-top: 12px;
+}
+
+.delete {
+    cursor: pointer;
+    margin: 3px;
+}
+
+.delete:hover {
+    background-color: red;
+    border-radius: 10px;
+}

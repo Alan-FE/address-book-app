@@ -1,0 +1,5 @@
+<div id="contacts-add">
+    <input type="text" placeholder="Enter your name" maxlength="15" #name/>
+    <input type="number" placeholder="Enter your number" maxlength="15" #number />
+    <button (click)="this.addData.addContact(name.value, number.value)">Add contact</button>
+</div>

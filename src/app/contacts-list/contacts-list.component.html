@@ -1,0 +1,6 @@
+<h1>List of contacts</h1>
+<div id="contacts-list"*ngFor='let item of this.addData.data; let i = index'>
+    <div class="name"><span>Name:</span> {{ item.name }}</div> 
+    <div class="number"><span>Number:</span> {{ item.telephoneNumber }}</div>
+    <img (click)='onDelete(i)' class="delete" src="../../assets/delete-white-36dp.svg" alt="delete">
+</div>

@@ -1,0 +1,26 @@
+#contacts-add {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    border-radius: 10px;
+    outline-style: none;
+    padding: 7px;
+    border: 2px solid;
+    border-color: white;
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    width: 100px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #086972;
+    color: white;
+}
